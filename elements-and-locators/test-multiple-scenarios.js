@@ -1,11 +1,11 @@
 describe('Protractor Demo App', function() {
-    var firstNumber = element(by.css('.input-small.ng-valid.ng-dirty.ng-valid-parse.ng-touched'));
-    var secondNumber = element(by.model('second'));
-    var goButton = element(by.id('gobutton'));
-    var latestResult = element(by.binding('latest'));
+    const firstNumber = element(by.css('.input-small.ng-valid.ng-dirty.ng-valid-parse.ng-touched'));
+    const secondNumber = element(by.model('second'));
+    const goButton = element(by.id('gobutton'));
+    const latestResult = element(by.binding('latest'));
   
 
-    let add = (a, b=0) =>{
+    const add = (a, b=0) =>{
         firstNumber.sendKeys(a);
         secondNumber.sendKeys(b);
         goButton.click();
