@@ -1,6 +1,6 @@
 
 // 'Describe' block represents a test suite
-describe('Angular Js Web', () => {
+xdescribe('Angular Js Web', () => {
 
 
     // 'it' block

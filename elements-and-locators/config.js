@@ -1,10 +1,14 @@
 exports.config = {
 
+    directConnect: true,
 
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+ //   seleniumAddress: 'http://localhost:4444/wd/hub',
 
-    specs: ['test_angularjs_web.js'],
-    capabilities: {
-        'browserName': 'chrome' // or 'safari'
-    }
+    specs: ['test-angularjs-web.js','test-calculator.js',"test-multiple-scenarios.js"],
+
+
+    multiCapabilities: [ {
+        browserName: 'chrome'
+      }]
+    
 };
