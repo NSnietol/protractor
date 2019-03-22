@@ -11,13 +11,13 @@ exports.config = {
           jasmine.getEnv().addReporter(
             new Jasmine2HtmlReporter({
               savePath: 'target/screenshots',
-              fileNamePrefix: 'Evidence',
+              fileNamePrefix: 'evidence',
               consolidate: false
             })
           );
         },
 
-    specs: ['testDefinitions/testTables.js'],
+    specs: ['test-definitions/test-tables-spec.js'],
 
 
     multiCapabilities: [ {

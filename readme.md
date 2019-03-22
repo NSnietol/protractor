@@ -2,6 +2,10 @@
 Jasmine is a behaviour-driven development framework for testing .
 
 
+## Recommend pluggins
+* protractor-helpers by http://wix.github.io/protractor-helpers/
+
+
 ## Suite in Jasmine
  A Suite represents a bunch of tests that are related. 
 
@@ -34,6 +38,8 @@ Example Matcher functions
 * toContain(expectedResult)
 * toBeNull(expectedResult), etc.
 
+Reference https://jasmine.github.io/api/2.7/matchers.html
+
 ### Example
     describe("A suite", function() {
     it("contains spec with an expectation",   function() { expect(true).toBe(true);
@@ -42,6 +48,6 @@ Example Matcher functions
 
 ### Notes 
  
- * Disabling Suites : Suites can be disabled with the xdescribe function. 
+* Disabling Suites : Suites can be disabled with the xdescribe function. 
 * Pending Specs : Pending Specs
  
