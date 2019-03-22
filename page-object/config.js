@@ -17,7 +17,7 @@ exports.config = {
           );
         },
 
-    specs: ['test-definition/testCalculator.js'],
+    specs: ['test-definition/test-calculator-spec.js'],
 
 
     multiCapabilities: [ {
